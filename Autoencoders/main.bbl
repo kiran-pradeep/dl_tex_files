@@ -1,0 +1,379 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{WGAN}
+Arjovsky, M., Chintala, S., Bottou, L.: Wasserstein generative adversarial
+  networks.
+\newblock In: D.~Precup, Y.W. Teh (eds.) Proceedings of the 34th International
+  Conference on Machine Learning, \emph{Proceedings of Machine Learning
+  Research}, vol.~70, pp. 214--223. PMLR, International Convention Centre,
+  Sydney, Australia (2017)
+
+\bibitem{AutoEncoders_explanation}
+Baldi, P.: Autoencoders, unsupervised learning, and deep architectures.
+\newblock In: I.~Guyon, G.~Dror, V.~Lemaire, G.~Taylor, D.~Silver (eds.)
+  Proceedings of ICML Workshop on Unsupervised and Transfer Learning,
+  \emph{Proceedings of Machine Learning Research}, vol.~27, pp. 37--49. PMLR,
+  Bellevue, Washington, USA (2012)
+
+\bibitem{linear_AutoEncoders}
+Baldi, P., Hornik, K.: Neural networks and principal component analysis:
+  Learning from examples without local minima.
+\newblock Neural Netw. \textbf{2}(1), 53--58 (1989).
+\newblock \doi{10.1016/0893-6080(89)90014-2}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1016/0893-6080(89)90014-2}
+
+\bibitem{denoising_ae_and_ETF}
+Bank, D., Giryes, R.: An {ETF} view of dropout regularization.
+\newblock In: 31st British Machine Vision Conference 2020, {BMVC} 2020, Virtual
+  Event, UK, September 7-10, 2020. {BMVA} Press (2020).
+\newblock
+  \urlprefix\url{https://www.bmvc2020-conference.com/assets/papers/0044.pdf}
+
+\bibitem{HALI}
+Belghazi, M.I., Rajeswar, S., Mastropietro, O., Rostamzadeh, N., Mitrovic, J.,
+  Courville, A.: Hierarchical adversarially learned inference (2018)
+
+\bibitem{BishopBook}
+Bishop, C.M.: Pattern Recognition and Machine Learning (Information Science and
+  Statistics).
+\newblock Springer-Verlag, Berlin, Heidelberg (2006)
+
+\bibitem{factoring_OT}
+Bousquet, O., Gelly, S., Tolstikhin, I., Simon-Gabriel, C.J., Schoelkopf, B.:
+  From optimal transport to generative modeling: the vegan cookbook.
+\newblock arXiv  (2017)
+
+\bibitem{IWAE}
+Burda, Y., Grosse, R.B., Salakhutdinov, R.: Importance weighted autoencoders.
+\newblock CoRR \textbf{abs/1509.00519} (2015)
+
+\bibitem{Marginalized}
+Chen, M., Xu, Z., Weinberger, K., Sha, F.: Marginalized denoising autoencoders
+  for domain adaptation.
+\newblock Proceedings of the 29th International Conference on Machine Learning,
+  ICML 2012 \textbf{1} (2012)
+
+\bibitem{autoencoder_gmm}
+Dilokthanakul, N., Mediano, P.A.M., Garnelo, M., Lee, M.C.H., Salimbeni, H.,
+  Arulkumaran, K., Shanahan, M.: Deep unsupervised clustering with gaussian
+  mixture variational autoencoders.
+\newblock ArXiv \textbf{abs/1611.02648} (2017)
+
+\bibitem{duda2001pattern}
+Duda, R.O., Hart, P.E., Stork, D.G., et~al.: Pattern classification.
+\newblock International Journal of Computational Intelligence and Applications
+  \textbf{1}, 335--339 (2001)
+
+\bibitem{ALI}
+Dumoulin, V., Belghazi, I., Poole, B., Lamb, A., Arjovsky, M., Mastropietro,
+  O., Courville, A.C.: Adversarially learned inference.
+\newblock ArXiv \textbf{abs/1606.00704} (2016)
+
+\bibitem{Why_Does_Unsupervised}
+Erhan, D., Bengio, Y., Courville, A., Manzagol, P.A., Vincent, P., Bengio, S.:
+  Why does unsupervised pre-training help deep learning?
+\newblock J. Mach. Learn. Res. \textbf{11}, 625–660 (2010)
+
+\bibitem{GAEL}
+Feigin, Y., Spitzer, H., Giryes, R.: Gmm-based generative adversarial encoder
+  learning (2020)
+
+\bibitem{Curse_of_dim}
+Friedman, J.H.: On bias, variance, 0/1—loss, and the curse-of-dimensionality.
+\newblock Data mining and knowledge discovery \textbf{1}(1), 55--77 (1997)
+
+\bibitem{style_transfer}
+Gatys, L.A., Ecker, A.S., Bethge, M.: Image style transfer using convolutional
+  neural networks.
+\newblock 2016 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR) pp. 2414--2423 (2016)
+
+\bibitem{autoencoders_classification}
+{Gogoi}, M., {Begum}, S.A.: Image classification using deep autoencoders.
+\newblock In: 2017 IEEE International Conference on Computational Intelligence
+  and Computing Research (ICCIC), pp. 1--5 (2017).
+\newblock \doi{10.1109/ICCIC.2017.8524276}
+
+\bibitem{anomaly_detection2}
+Gong, D., Liu, L., Le, V., Saha, B., Mansour, M.R., Venkatesh, S., van~den
+  Hengel, A.: Memorizing normality to detect anomaly: Memory-augmented deep
+  autoencoder for unsupervised anomaly detection (2019)
+
+\bibitem{MMD}
+Gretton, A., Borgwardt, K.M., Rasch, M.J., Sch\"{o}lkopf, B., Smola, A.: A
+  kernel two-sample test.
+\newblock J. Mach. Learn. Res. \textbf{13}(null), 723–773 (2012)
+
+\bibitem{soft_clustering}
+Guo, X., Liu, X., Zhu, E., Yin, J.: Deep clustering with convolutional
+  autoencoders.
+\newblock pp. 373--382 (2017)
+
+\bibitem{anomaly_detection1}
+{Hasan}, M., {Choi}, J., {Neumann}, J., {Roy-Chowdhury}, A.K., {Davis}, L.S.:
+  Learning temporal regularity in video sequences.
+\newblock In: 2016 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR), pp. 733--742 (2016)
+
+\bibitem{CF_Explained}
+Herlocker, J.L., Konstan, J.A., Riedl, J.: {Explaining Collaborative Filtering
+  Recommendations}.
+\newblock In: Proceedings of the 2000 ACM Conference on Computer Supported
+  Cooperative Work, CSCW '00, pp. 241--250. ACM (2000)
+
+\bibitem{betaVAELB}
+Higgins, I., Matthey, L., Pal, A., Burgess, C., Glorot, X., Botvinick, M.M.,
+  Mohamed, S., Lerchner, A.: beta-vae: Learning basic visual concepts with a
+  constrained variational framework.
+\newblock In: ICLR (2017)
+
+\bibitem{hinton2006reducing}
+Hinton, G.E., Salakhutdinov, R.R.: Reducing the dimensionality of data with
+  neural networks.
+\newblock science \textbf{313}(5786), 504--507 (2006)
+
+\bibitem{StyleGANEncoder}
+Hochberg, D.C., Giryes, R., Greenspan, H.: A self supervised stylegan for
+  classificationwith extremely limited annotations (2021)
+
+\bibitem{Deep_feature_VAE}
+Hou, X., Shen, L., Sun, K., Qiu, G.: Deep feature consistent variational
+  autoencoder.
+\newblock CoRR \textbf{abs/1610.00291} (2016).
+\newblock \urlprefix\url{http://arxiv.org/abs/1610.00291}
+
+\bibitem{VariationalAutoEncoder}
+Kingma, D.P., Welling, M.: Auto-encoding variational bayes.
+\newblock CoRR \textbf{abs/1312.6114} (2013)
+
+\bibitem{decoder_generator}
+Larsen, A.B.L., S\o{}nderby, S.K., Larochelle, H., Winther, O.: Autoencoding
+  beyond pixels using a learned similarity metric.
+\newblock In: Proceedings of the 33rd International Conference on International
+  Conference on Machine Learning - Volume 48, ICML'16, p. 1558–1566. JMLR.org
+  (2016)
+
+\bibitem{supervised_autoencoders}
+Le, L., Patterson, A., White, M.: Supervised autoencoders: Improving
+  generalization performance with unsupervised regularizers.
+\newblock In: S.~Bengio, H.~Wallach, H.~Larochelle, K.~Grauman,
+  N.~Cesa-Bianchi, R.~Garnett (eds.) Advances in Neural Information Processing
+  Systems 31, pp. 107--117. Curran Associates, Inc. (2018)
+
+\bibitem{ALICE}
+Li, C., Liu, H., Chen, C., Pu, Y., Chen, L., Henao, R., Carin, L.: Alice:
+  Towards understanding adversarial learning for joint distribution matching.
+\newblock In: I.~Guyon, U.V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus,
+  S.~Vishwanathan, R.~Garnett (eds.) Advances in Neural Information Processing
+  Systems, vol.~30. Curran Associates, Inc. (2017).
+\newblock
+  \urlprefix\url{https://proceedings.neurips.cc/paper/2017/file/ade55409d1224074754035a5a937d2e0-Paper.pdf}
+
+\bibitem{RecSys_VAE}
+Liang, D., Krishnana, R.G., Hoffman, M.D., Jebara, T.: Variational autoencoders
+  for collaborative filtering.
+\newblock CoRR \textbf{abs/1802.05814} (2018).
+\newblock \urlprefix\url{https://arxiv.org/abs/1802.05814}
+
+\bibitem{JS}
+Lin, J.: Divergence measures based on the shannon entropy.
+\newblock IEEE Transactions on Information Theory \textbf{37}(1), 145--151
+  (1991).
+\newblock \doi{10.1109/18.61115}.
+\newblock
+  \urlprefix\url{http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=61115}
+
+\bibitem{CelebA}
+Liu, Z., Luo, P., Wang, X., Tang, X.: Deep learning face attributes in the
+  wild.
+\newblock In: Proceedings of the 2015 IEEE International Conference on Computer
+  Vision (ICCV), ICCV ’15, p. 3730–3738. IEEE Computer Society, USA (2015).
+\newblock \doi{10.1109/ICCV.2015.425}.
+\newblock \urlprefix\url{https://doi.org/10.1109/ICCV.2015.425}
+
+\bibitem{Adversarial_Autoencoders}
+Makhzani, A., Shlens, J., Jaitly, N., Goodfellow, I.J.: Adversarial
+  autoencoders.
+\newblock CoRR \textbf{abs/1511.05644} (2015)
+
+\bibitem{ConvAutoEncoder}
+Masci, J., Meier, U., Cire{\c{s}}an, D., Schmidhuber, J.: Stacked convolutional
+  auto-encoders for hierarchical feature extraction.
+\newblock In: T.~Honkela, W.~Duch, M.~Girolami, S.~Kaski (eds.) Artificial
+  Neural Networks and Machine Learning -- ICANN 2011, pp. 52--59. Springer
+  Berlin Heidelberg, Berlin, Heidelberg (2011)
+
+\bibitem{pixelCNN}
+van~den Oord, A., Kalchbrenner, N., Kavukcuoglu, K.: Pixel recurrent neural
+  networks (2016)
+
+\bibitem{pixel_VAE}
+Oord, A.v.d., Kalchbrenner, N., Vinyals, O., Espeholt, L., Graves, A.,
+  Kavukcuoglu, K.: Conditional image generation with pixelcnn decoders.
+\newblock In: Proceedings of the 30th International Conference on Neural
+  Information Processing Systems, NIPS'16, pp. 4797--4805. Curran Associates
+  Inc., USA (2016).
+\newblock \urlprefix\url{http://dl.acm.org/citation.cfm?id=3157382.3157633}
+
+\bibitem{PCA_linearautoencoder}
+Plaut, E.: From principal subspaces to principal components with linear
+  autoencoders (2018)
+
+\bibitem{VariationalAutoEncoderClassification}
+Pu, Y., Gan, Z., Henao, R., Yuan, X., Li, C., Stevens, A., Carin, L.:
+  Variational autoencoder for deep learning of images, labels and captions.
+\newblock In: Advances in Neural Information Processing Systems 29: Annual
+  Conference on Neural Information Processing Systems 2016, December 5-10,
+  2016, Barcelona, Spain, pp. 2352--2360 (2016)
+
+\bibitem{NNAutoEncoder}
+Ranzato, M., Huang, F.J., Boureau, Y., LeCun, Y.: Unsupervised learning of
+  invariant feature hierarchies with applications to object recognition.
+\newblock In: 2007 IEEE Conference on Computer Vision and Pattern Recognition,
+  pp. 1--8 (2007).
+\newblock \doi{10.1109/CVPR.2007.383157}
+
+\bibitem{recsys_book}
+Ricci, F., Rokach, L., Shapira, B.: Introduction to recommender systems
+  handbook.
+\newblock In: Recommender systems handbook, pp. 1--35. Springer (2011)
+
+\bibitem{EMD}
+Rubner, Y., Tomasi, C., Guibas, L.: The earth mover's distance as a metric for
+  image retrieval.
+\newblock International Journal of Computer Vision \textbf{40}, 99--121 (2000).
+\newblock \doi{10.1023/A:1026543900054}
+
+\bibitem{AutoEncoder_original}
+Rumelhart, D.E., Hinton, G.E., Williams, R.J.: Parallel distributed processing:
+  Explorations in the microstructure of cognition, vol. 1.
+\newblock chap. Learning Internal Representations by Error Propagation, pp.
+  318--362. MIT Press, Cambridge, MA, USA (1986).
+\newblock \urlprefix\url{http://dl.acm.org/citation.cfm?id=104279.104293}
+
+\bibitem{AutoRec}
+Sedhain, S., Menon, A.K., Sanner, S., Xie, L.: Autorec: Autoencoders meet
+  collaborative filtering.
+\newblock In: Proceedings of the 24th International Conference on World Wide
+  Web Companion, {WWW} 2015, Florence, Italy, May 18-22, 2015 - Companion
+  Volume, pp. 111--112 (2015)
+
+\bibitem{Auto-encoder_Based_Data_Clustering}
+Song, C., Liu, F., Huang, Y., Wang, L., Tan, T.: Auto-encoder based data
+  clustering.
+\newblock In: J.~Ruiz-Shulcloper, G.~Sanniti~di Baja (eds.) Progress in Pattern
+  Recognition, Image Analysis, Computer Vision, and Applications, pp. 117--124.
+  Springer Berlin Heidelberg, Berlin, Heidelberg (2013)
+
+\bibitem{Hybrid_AutoRec2}
+Strub, F., Mary, J.: {Collaborative Filtering with Stacked Denoising
+  AutoEncoders and Sparse Inputs}.
+\newblock In: {NIPS Workshop on Machine Learning for eCommerce}. Montreal,
+  Canada (2015)
+
+\bibitem{Hybrid_AutoRec1}
+Strub, F., Mary, J., Gaudel, R.: Hybrid recommender system based on
+  autoencoders.
+\newblock CoRR \textbf{abs/1606.07659} (2016).
+\newblock \urlprefix\url{http://arxiv.org/abs/1606.07659}
+
+\bibitem{ISOMAP}
+Tenenbaum, J.B., De~Silva, V., Langford, J.C.: A global geometric framework for
+  nonlinear dimensionality reduction.
+\newblock science \textbf{290}(5500), 2319--2323 (2000)
+
+\bibitem{Wasserstein_Autoencoders}
+Tolstikhin, I., , Bousquet, O., Gelly, S., Scholkopf, B.: Wasserstein
+  auto-encoders.
+\newblock ICML 2018 (2018)
+
+\bibitem{pixelRNN}
+Van Den~Oord, A., Kalchbrenner, N., Kavukcuoglu, K.: Pixel recurrent neural
+  networks.
+\newblock In: Proceedings of the 33rd International Conference on International
+  Conference on Machine Learning - Volume 48, ICML’16, p. 1747–1756.
+  JMLR.org (2016)
+
+\bibitem{dimensionality_reduction}
+Van Der~Maaten, L., Postma, E., Van~den Herik, J.: Dimensionality reduction: a
+  comparative review.
+\newblock J Mach Learn Res \textbf{10}, 66--71 (2009)
+
+\bibitem{OT}
+Villani, C.: Topics in Optimal Transportation.
+\newblock Graduate studies in mathematics. American Mathematical Society
+  (2003).
+\newblock \urlprefix\url{https://books.google.co.il/books?id=GqRXYFxe0l0C}
+
+\bibitem{Denoising_AutoEncoders}
+Vincent, P., Larochelle, H., Bengio, Y., Manzagol, P.A.: Extracting and
+  composing robust features with denoising autoencoders.
+\newblock In: Proceedings of the 25th International Conference on Machine
+  Learning, ICML '08, pp. 1096--1103. ACM, New York, NY, USA (2008).
+\newblock \doi{10.1145/1390156.1390294}.
+\newblock \urlprefix\url{http://doi.acm.org/10.1145/1390156.1390294}
+
+\bibitem{Stacked_autoEncoders}
+Vincent, P., Larochelle, H., Lajoie, I., Bengio, Y., Manzagol, P.A.: Stacked
+  denoising autoencoders: Learning useful representations in a deep network
+  with a local denoising criterion.
+\newblock J. Mach. Learn. Res. \textbf{11}, 3371--3408 (2010).
+\newblock \urlprefix\url{http://dl.acm.org/citation.cfm?id=1756006.1953039}
+
+\bibitem{kmeans}
+Wagstaff, K., Cardie, C., Rogers, S., Schr\"{o}dl, S.: Constrained k-means
+  clustering with background knowledge.
+\newblock In: Proceedings of the Eighteenth International Conference on Machine
+  Learning, ICML ’01, p. 577–584. Morgan Kaufmann Publishers Inc., San
+  Francisco, CA, USA (2001)
+
+\bibitem{wang2014generalized}
+Wang, W., Huang, Y., Wang, Y., Wang, L.: Generalized autoencoder: A neural
+  network framework for dimensionality reduction.
+\newblock In: Proceedings of the IEEE conference on computer vision and pattern
+  recognition workshops, pp. 490--497 (2014)
+
+\bibitem{wang2016auto}
+Wang, Y., Yao, H., Zhao, S.: Auto-encoder based dimensionality reduction.
+\newblock Neurocomputing \textbf{184}, 232--242 (2016)
+
+\bibitem{PCA}
+Wold, S., Esbensen, K., Geladi, P.: Principal component analysis.
+\newblock Chemometrics and intelligent laboratory systems \textbf{2}(1-3),
+  37--52 (1987)
+
+\bibitem{Hybrid_AutoRec_implicit}
+Wu, Y., DuBois, C., Zheng, A.X., Ester, M.: Collaborative denoising
+  auto-encoders for top-n recommender systems.
+\newblock In: Proceedings of the Ninth {ACM} International Conference on Web
+  Search and Data Mining, San Francisco, CA, USA, February 22-25, 2016, pp.
+  153--162 (2018)
+
+\bibitem{Augmenting_Supervised_Neural_Networks}
+Zhang, Y., Lee, K., Lee, H.: Augmenting supervised neural networks with
+  unsupervised objectives for large-scale image classification.
+\newblock In: Proceedings of the 33rd International Conference on International
+  Conference on Machine Learning - Volume 48, ICML’16, p. 612–621. JMLR.org
+  (2016)
+
+\bibitem{anomaly_detection4}
+Zhao, Y., Deng, B., Shen, C., Liu, Y., Lu, H., Hua, X.S.: Spatio-temporal
+  autoencoder for video anomaly detection.
+\newblock In: Proceedings of the 25th ACM International Conference on
+  Multimedia, MM ’17, p. 1933–1941. Association for Computing Machinery,
+  New York, NY, USA (2017).
+\newblock \doi{10.1145/3123266.3123451}.
+\newblock \urlprefix\url{https://doi.org/10.1145/3123266.3123451}
+
+\bibitem{anomaly_detection3}
+Zong, B., Song, Q., Min, M.R., Cheng, W., Lumezanu, C., ki~Cho, D., Chen, H.:
+  Deep autoencoding gaussian mixture model for unsupervised anomaly detection.
+\newblock In: ICLR (2018)
+
+\end{thebibliography}
